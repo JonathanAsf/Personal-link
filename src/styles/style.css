@@ -1,0 +1,30 @@
+body {
+  background-color: #decdec;
+}
+
+header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+header > img {
+  width: 160px;
+  height: 160px;
+  border-radius: 160px;
+  outline: 5px solid #000;
+}
+
+header > .personal-title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #010101;
+}
+
+footer {
+  text-align: center;
+}
